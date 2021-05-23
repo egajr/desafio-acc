@@ -1,0 +1,598 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-23T17:10:44.155Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7956000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.desafioacc.step.BaseStep.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Devo enviar solicitação de cotação de seguro com sucesso",
+        "description": "",
+        "id": "solicitação-de-seguro-de-veículos;devo-enviar-solicitação-de-cotação-de-seguro-com-sucesso;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.desafioacc.step.BaseStep.quit(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 585000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que acesse o site para cotação de seguro de um \"automobile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"automobile\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.que_acesse_o_site_para_cotacao_de_seguro_de_um_veiculo(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1268000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho os dados do \"automobile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"automobile\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_veiculo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1879000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho os dados do segurado",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_segurado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 661000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho os dados do seguro para o \"automobile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"automobile\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_seguro_para_o_veiculo(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 978000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "seleciono o tipo de seguro",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.seleciono_o_tipo_de_seguro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1183000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencho os dados de envio da cotação",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_de_envio_da_cotacao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico no botão de enviar",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.clico_no_botao_de_enviar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 9003000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "recebo a mensagem “Sending e-mail success!”",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.recebo_a_mensagem_sending_e_mail_success()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T17:11:07.943Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6084000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.desafioacc.step.BaseStep.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Devo enviar solicitação de cotação de seguro com sucesso",
+        "description": "",
+        "id": "solicitação-de-seguro-de-veículos;devo-enviar-solicitação-de-cotação-de-seguro-com-sucesso;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.desafioacc.step.BaseStep.quit(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 702000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que acesse o site para cotação de seguro de um \"truck\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"truck\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.que_acesse_o_site_para_cotacao_de_seguro_de_um_veiculo(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: There is an invalid or unfilled field \u003d\u003d\u003e expected: \u003c0\u003e but was: \u003c1\u003e\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1135)\n\tat com.desafioacc.page.VeichlePage.validateCompletedForm(VeichlePage.java:126)\n\tat com.desafioacc.step.SendQuote.preencho_os_dados_do_veiculo(SendQuote.java:27)\n\tat ✽.preencho os dados do \"truck\"(file:///home/eder-angelo/Documentos/Projetos/DesafioAcc/src/test/resources/feature/SendQuote.feature:10)\n",
+              "duration": 1237000000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "preencho os dados do \"truck\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"truck\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_veiculo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "preencho os dados do segurado",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_segurado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "preencho os dados do seguro para o \"truck\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"truck\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_seguro_para_o_veiculo(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "seleciono o tipo de seguro",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.seleciono_o_tipo_de_seguro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "preencho os dados de envio da cotação",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_de_envio_da_cotacao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "clico no botão de enviar",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.clico_no_botao_de_enviar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "recebo a mensagem “Sending e-mail success!”",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.recebo_a_mensagem_sending_e_mail_success()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T17:11:16.367Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4159000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.desafioacc.step.BaseStep.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Devo enviar solicitação de cotação de seguro com sucesso",
+        "description": "",
+        "id": "solicitação-de-seguro-de-veículos;devo-enviar-solicitação-de-cotação-de-seguro-com-sucesso;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.desafioacc.step.BaseStep.quit(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1031000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que acesse o site para cotação de seguro de um \"motorcycle\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"motorcycle\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.que_acesse_o_site_para_cotacao_de_seguro_de_um_veiculo(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1725000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho os dados do \"motorcycle\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"motorcycle\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_veiculo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2187000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho os dados do segurado",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_segurado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 561000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho os dados do seguro para o \"motorcycle\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"motorcycle\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_seguro_para_o_veiculo(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 883000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "seleciono o tipo de seguro",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.seleciono_o_tipo_de_seguro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1121000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencho os dados de envio da cotação",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_de_envio_da_cotacao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico no botão de enviar",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.clico_no_botao_de_enviar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8952000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "recebo a mensagem “Sending e-mail success!”",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.recebo_a_mensagem_sending_e_mail_success()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T17:11:37.165Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6234000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.desafioacc.step.BaseStep.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Devo enviar solicitação de cotação de seguro com sucesso",
+        "description": "",
+        "id": "solicitação-de-seguro-de-veículos;devo-enviar-solicitação-de-cotação-de-seguro-com-sucesso;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.desafioacc.step.BaseStep.quit(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 558000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que acesse o site para cotação de seguro de um \"camper\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"camper\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.que_acesse_o_site_para_cotacao_de_seguro_de_um_veiculo(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1339000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho os dados do \"camper\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"camper\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_veiculo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1434000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho os dados do segurado",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_segurado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 546000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho os dados do seguro para o \"camper\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"camper\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_do_seguro_para_o_veiculo(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 750000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "seleciono o tipo de seguro",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.seleciono_o_tipo_de_seguro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1011000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencho os dados de envio da cotação",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.preencho_os_dados_de_envio_da_cotacao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico no botão de enviar",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.clico_no_botao_de_enviar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8969000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "recebo a mensagem “Sending e-mail success!”",
+            "match": {
+              "location": "com.desafioacc.step.SendQuote.recebo_a_mensagem_sending_e_mail_success()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Solicitação de seguro de veículos",
+    "description": "  Como um motorista\n  Eu quero solicitar uma cotação de seguro\n  Para obter o melhor valor a pagar",
+    "id": "solicitação-de-seguro-de-veículos",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/feature/SendQuote.feature",
+    "tags": []
+  }
+]
